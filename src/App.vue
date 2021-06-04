@@ -1,25 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 in CodeSandbox!" />
+  <div class="container">
+    <Navbar />
+    <router-view />
+  </div>
 </template>
 
 <script>
-import HelloWorldVue from "./components/HelloWorld.vue";
+import Navbar from './components/Navbar'
+
+
 export default {
   name: "App",
-  components: {
-    HelloWorld: HelloWorldVue,
-  },
+  components : {
+    Navbar
+  }
 };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+  margin : 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: black;
+}
+
+.container {
+    max-width: 1100px;
 }
 </style>
