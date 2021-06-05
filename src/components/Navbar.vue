@@ -21,13 +21,13 @@ li {
     padding: 0 20px;;
 }
 
-a {
+.router-link, a {
     text-decoration: none;
     color : white
 }
 
 
-.active, a:hover {
+.router-link-exact-active, .active, a:hover {
     border-bottom: 2px #0d6efd solid;
     color : #0d6efd;
 }
@@ -37,10 +37,10 @@ a {
     width : 1100px;
     max-width: 1100px;
     background-color: black;
-    overflow: auto;
-    opacity: 90%;
+
     position: fixed;
-    top :0;
+    top : 0;
+
 }
 
 .navbar .flex {

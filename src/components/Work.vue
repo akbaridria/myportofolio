@@ -100,7 +100,7 @@
             <hr />
             <div class="card">
                 <div class="image" style="margin-right : 20px">
-                     <i class="fad fa-chart-bar fa-2x" style="color: white;"></i>
+                     <i class="fas fa-chart-bar fa-2x" style="color: white;"></i>
                 </div>
                 <div class="textImage">
                     <h4>Project Name</h4>
@@ -148,10 +148,7 @@ export default {
     color : white;
 }
 
-a {
-    text-decoration: none;
-    color : white;
-}
+
 .card {
     display: flex;
     flex-direction: row;
@@ -168,9 +165,7 @@ a {
     flex-direction : column;
     justify-content: center;
 }
-a:hover, h4 {
-    color : #0d6efd;
-}
+
 p{
     margin-bottom : 2px;
 }

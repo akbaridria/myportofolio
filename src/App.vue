@@ -22,13 +22,16 @@ export default {
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  box-sizing: border-box;
-  margin : 0;
-  padding: 0;
   line-height: 1.6;
   background-color: black;
 }
-
+a:hover, h4 {
+    color : #0d6efd;
+}
+a {
+    text-decoration: none;
+    color : white;
+}
 .container {
     max-width: 1100px;
 }
